@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ofertas - Mundo Confeitado</title>
+    <style>
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+
+        .header {
+            background-color: #000000; /* Fundo do cabeçalho preto */
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centraliza o texto no cabeçalho */
+        }
+
+        .navbar {
+            background-color: #f8c8dc;
+            justify-content: center; /* Centraliza a navbar */
+        }
+
+        .navbar-nav {
+            display: flex; /* Garante que os links sejam exibidos em linha */
+            justify-content: center; /* Centraliza os itens da navbar */
+            text-align: center; /* Centraliza o texto dos itens da navbar */
+            width: 100%; /* Define a largura como 100% para garantir a centralização */
+        }
+
+        .nav-link {
+            font-weight: bold; /* Torna o texto em negrito */
+            color: #000; /* Define a cor das palavras da navbar como preta */
+        }
+
+        .offers {
+            background-color: #f8c8dc;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: #000; /* Define a cor do texto das ofertas como preto */
+        }
+
+        .footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header"> <!-- Classe 'header' já aplicada -->
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1 class="text-center">Mundo Confeitado</h1> <!-- Centralizando o texto do título -->
+        <p class="text-center">Delícias que adoçam sua vida</p> <!-- Centralizando o texto do parágrafo -->
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link active" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center">Nossas Ofertas Especiais</h2>
+        <div class="offers">
+            <h4>Ofertas do Mês:</h4>
+            <ul>
+                <li>10% de desconto em todos os bolos de aniversário!</li>
+                <li>Na compra de 5 brigadeiros, leve 1 de graça!</li>
+            </ul>
+            <p class="text-center"><a href="Bolos.html" class="btn btn-primary">Confira Nossos Produtos!</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

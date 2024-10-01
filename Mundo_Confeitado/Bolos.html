@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Confeitado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #fce4ec; /* Fundo rosa bebê */
+            color: #000; /* Texto preto */
+        }
+        header {
+            background-color: #f8bbd0; /* Rosa bebê mais escuro para destaque */
+            color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000; /* Preto para contraste */
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fce4ec; /* Texto rosa bebê nos links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #f8bbd0; /* Rosa mais claro no hover */
+            text-decoration: underline;
+        }
+        .banner {
+            background-image: url('SUA_IMAGEM_DE_BANNER.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .banner h1 {
+            font-size: 4rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: #fff;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #000;
+        }
+        .section-header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .grid-item figcaption {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+        .ver-mais {
+            text-align: center;
+            margin: 20px 0 50px; /* Espaço entre o botão e o conteúdo acima */
+        }
+        .ver-mais button {
+            background-color: #000; /* Fundo preto */
+            color: #ff69b4; /* Texto rosa bebê */
+            padding: 15px 30px;
+            border: 2px solid #ff69b4; /* Borda rosa */
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .ver-mais button:hover {
+            background-color: #ff69b4; /* Fundo rosa no hover */
+            color: #000; /* Texto preto no hover */
+            border-color: #000; /* Borda preta no hover */
+        }
+        footer {
+            background-color: #000; /* Preto para o rodapé */
+            color: #fce4ec; /* Texto rosa bebê */
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p, footer a {
+            margin-bottom: 10px;
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #f8bbd0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Bolos.html">Bolos</a>
+        <a href="Doces.html">Doces</a>
+        <a href="Ofertas.html">Ofertas</a>
+        <a href="Contato.html">Contato</a>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Seja Bem-vindo à Nossa Sessão de Bolos</h1>
+    </div>
+
+    <!-- Seção de Bolos -->
+    <section id="bolos">
+        <div class="section-header">
+            <h2>Bolos Especiais</h2>
+            <p>Nossos bolos são preparados com ingredientes frescos e muito carinho.</p>
+        </div>
+        <div class="grid">
+            <figure class="grid-item">
+                <img src="img/ninho-com-nutella.jpeg" alt="Bolo de Leite Ninho com Nutella">
+                <figcaption>Bolo de Leite Ninho com Nutella</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/bolodeoreoechcolatebranco.jpg" alt="Bolo de Oreo com Chocolate Branco">
+                <figcaption>Bolo de Oreo com Chocolate Branco</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/Bolodecenoura2.jpg" alt="Bolo de Cenoura">
+                <figcaption>Bolo de Cenoura</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/bolodebrigadeiri2.jpg" alt="Bolo de Brigadeiro">
+                <figcaption>Bolo de Brigadeiro</figcaption>
+            </figure>
+        </div>
+
+        <!-- Botão Ver Mais abaixo da seção de Bolos -->
+        <div class="ver-mais">
+            <button onclick="window.location.href='mais_bolos.html'">Ver Mais</button>
+        </div>
+    </section>
+
+    <!-- Seção de Cupcakes -->
+    <section id="cupcakes">
+        <div class="section-header">
+            <h2>Cupcakes Deliciosos</h2>
+            <p>Cupcakes fofinhos e decorados para todos os gostos.</p>
+        </div>
+        <div class="grid">
+            <figure class="grid-item">
+                <img src="img/Cupcakesdechocolate.jpg" alt="Cupcake de Chocolate">
+                <figcaption>Cupcake de Chocolate</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/cupcake-de-baunilha2.jpg" alt="Cupcake de Baunilha">
+                <figcaption>Cupcake de Baunilha</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/cu´pcakedemorango.jpg" alt="Cupcake de Morango">
+                <figcaption>Cupcake de Morango</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/Cupcakes-de-limão2-siciliano.jpg" alt="Cupcake de Limão">
+                <figcaption>Cupcake de Limão</figcaption>
+            </figure>
+        </div>
+
+        <!-- Botão Ver Mais abaixo da seção de Cupcakes -->
+        <div class="ver-mais">
+            <button onclick="window.location.href='mais_cupcakes.html'">Ver Mais</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+</body>
+</html>
+

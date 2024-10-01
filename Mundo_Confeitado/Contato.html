@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contato - Mundo Confeitado</title>
+    <style>
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+        
+        .header {
+            background-color: #000000;
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+
+        .navbar {
+            background-color: #f8c8dc;
+            justify-content: center; /* Centraliza os itens da navbar */
+        }
+
+        .nav-link {
+            font-weight: bold; /* Torna o texto em negrito */
+            color: #000; /* Define a cor das palavras da navbar como preta */
+        }
+
+        .contact-info {
+            background-color: #f8c8dc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="text-center"> <!-- Adicionando text-center aqui -->
+        <div class="container-fluid">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- Centralizando as palavras do navbar -->
+                <div class="navbar-nav text-center"> <!-- Adicionando text-center aqui -->
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link active" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center">Entre em Contato Conosco</h2>
+        
+        <div class="contact-info mt-4">
+            <h4>Informações de Contato</h4>
+            <p style="color: #000;"><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p style="color: #000;"><strong>Email:</strong> Confeitaria@mundoconfeitado.com.br</p>
+            <p style="color: #000;"><strong>Endereço:</strong> Av. das Castanheiras, 123, Aguas Claras - DF</p>
+        </div>
+
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

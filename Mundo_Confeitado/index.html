@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Mundo Confeitado</title>
+    <style>
+        .header {
+            background-color: #000000; /* Fundo preto */
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centraliza o texto no cabeçalho */
+        }
+        
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+        
+        .navbar {
+            background-color: #f8c8dc;
+            min-height: 80px; 
+            padding-top: 15px; 
+            padding-bottom: 15px; 
+        }
+        
+        .navbar-brand {
+            color: rgb(46, 44, 44) !important;
+            font-size: 1.5rem; 
+            font-weight: bold; /* Torna o texto da marca em negrito */
+        }
+        
+        .navbar-nav {
+            display: flex; /* Exibe os links em linha */
+            justify-content: center; /* Centraliza os links */
+            width: 100%; /* Ocupa toda a largura disponível */
+        }
+
+        .nav-link {
+            color: rgb(46, 44, 44) !important;
+            font-size: 1.2rem; 
+            text-align: center; /* Centraliza o texto dos links da navbar */
+            font-weight: bold; /* Torna o texto dos links em negrito */
+        }
+        
+        .nav-link:hover {
+            color: #fff !important;
+        }
+        
+        .card {
+            background-color: rgb(46, 44, 44);
+            color: #f8c8dc;
+            border: 1px solid #f8c8dc;
+        }
+        
+        .btn, .card-header {
+            background-color: #f8c8dc;
+            color: #000;
+        }
+        
+        .card-footer {
+            background-color: #f8c8dc;
+            color: #000;
+        }
+        
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+    
+        footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+            min-height: 150px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header"> <!-- Adicione a classe 'header' aqui -->
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <strong></strong> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- O restante do código permanece o mesmo -->
+    
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Bolosabanner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/post_thumbnail-2f879fc2c227e433a998d30b9c2d69f0.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bolocheiodemorango.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="card text-center mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Bem Vindos à Confeitaria Mundo Confeitado</h5>
+            <p class="card-text">Nós da Mundo Confeitado, acreditamos que nada supera o sabor de um doce feito com carinho, como aqueles que saem da cozinha da vovó. Cada receita nossa é preparada com ingredientes selecionados e aquele toque caseiro que faz você se sentir em casa.</p>
+        </div>
+    </div>
+
+    <div class="card text-center mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Sobre Nós</h5>
+            <p class="card-text">Nossa história começa há muitos anos, com um jovem chamada Bruno, apaixonado pela magia dos sabores e encantada pelo poder que um simples doce tem de trazer alegria.
+                Tudo começou na pequena cozinha de sua avó, uma confeiteira de mão cheia que ensinou o Bruno os segredos das receitas que passavam de geração em geração. Porém, Bruno queria ir além. Sonhava em criar um mundo onde os doces fossem mais do que simples sobremesas — onde cada mordida pudesse transportar as pessoas para momentos especiais, despertar memórias e criar novas histórias.
+                E foi assim que nasceu o Mundo Confeitado. Com uma mistura de tradição e inovação, Bruno abriu as portas de sua confeitaria, um lugar cheio de cores, aromas e, claro, sabores inesquecíveis. A proposta era simples: cada doce deveria ser uma experiência única, seja um bolo recheado de carinho, um cupcake divertido ou uma torta capaz de aquecer o coração.
+                Logo, o Mundo Confeitado se tornou famoso por sua variedade de delícias artesanais, cuidadosamente preparadas com ingredientes frescos e técnicas apuradas. Além de serem irresistíveis ao paladar, os doces encantavam pelos detalhes, como se cada um deles fosse uma pequena obra de arte.
+                Mas o que torna o Mundo Confeitado verdadeiramente especial é o espírito de acolhimento que permeia o lugar. Bruno sempre acreditou que a confeitaria é uma ponte entre as pessoas, uma forma de criar laços e espalhar felicidade. Por isso, cada cliente que entra no Mundo Confeitado é recebido como parte da família, com um sorriso e a certeza de que encontrará o doce perfeito para o seu momento.</p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Bolodecenoura.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Confira nossos Bolos!</h5>
+              <p class="card-text">Na Mundo Confeitado, cada bolo é feito com carinho e atenção aos mínimos detalhes. Nossas receitas combinam ingredientes frescos, sabores irresistíveis e aquele toque caseiro que faz toda a diferença. Temos uma grande variedade de bolos para todos os gostos, desde os clássicos até os mais inovadores. Seja para uma comemoração especial ou apenas para adoçar o seu dia, nossos bolos são preparados para trazer sorrisos e momentos inesquecíveis. Confira nossas opções e escolha o bolo perfeito para você!</p>
+              <a href="Bolos.html" class="btn btn-primary">Confira!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/docesbrigadero.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Confira nossos Doces!</h5>
+              <p class="card-text">Seja qual for a ocasião, nossos doces são o toque final perfeito para transformar qualquer momento em uma celebração. Na Mundo Confeitado, cada doce é preparado com ingredientes selecionados e uma pitada de amor, resultando em sabores que encantam e surpreendem. Desde brigadeiros tradicionais até criações mais sofisticadas, temos uma variedade deliciosa que agrada a todos os paladares. Experimente nossas delícias e descubra o sabor especial que só a Mundo Confeitado pode oferecer!</p>
+              <a href="Doces.html" class="btn btn-primary">Confira!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/kit festa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Veja nossas Ofertas!</h5>
+              <p class="card-text">Não perca a chance de adoçar seu dia com nossas ofertas especiais! Na Mundo Confeitado, estamos sempre trazendo novidades e promoções irresistíveis para você aproveitar o melhor da confeitaria com preços incríveis. Sejam bolos, doces ou produtos sazonais, aqui você encontra qualidade e sabor incomparáveis com descontos que vão te surpreender. Fique de olho e garanta suas delícias favoritas por um preço ainda mais doce!</p>
+              <div class="d-grid gap-2 d-md-block">
+                <a href="Ofertas.html" class="btn btn-primary">Confira!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/confeiteiro.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Entre em Contato</h5>
+              <p class="card-text">Tem alguma dúvida, sugestão ou deseja fazer um pedido especial? Estamos aqui para ajudar! Na Mundo Confeitado, valorizamos a proximidade com nossos clientes. Entre em contato conosco e teremos o maior prazer em atender você. Seja para saber mais sobre nossos produtos, personalizar um bolo ou esclarecer qualquer questão, estamos a apenas uma mensagem de distância. Não hesite em nos procurar, pois seu doce momento começa aqui</p>
+              <a href="Contato.html" class="btn btn-primary">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+</body>
+</html>
